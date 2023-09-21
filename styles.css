@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #303841;
+}
+.navbar {
+  background-color: #be3144;
+  border-radius: 4px;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 9999;
+}
+.navbar ul {
+  display: flex;
+  justify-content: end;
+}
+.navbar li {
+  margin: 0px 10px 0px 10px;
+  float: left;
+  list-style: none;
+}
+
+.navbar li a {
+  padding: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.navbar .nav1 {
+  margin: 10px;
+  padding: 10px;
+}
+.navbar .nav1:hover {
+  background-color: #45567d;
+  color: white;
+}
+.mainbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.intro {
+  color: aliceblue;
+}
+.intro h1 {
+  font-size: 55px;
+}
+.intro p {
+  color: #be3144;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.projects {
+  background-color: #45567d;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+img {
+  height: 350px;
+  width: 335px;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+
+hr {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+}
+
+.button {
+  color: aliceblue;
+}
+p {
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  margin: 15px;
+  background-color: #303841;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.showall {
+  background-color: #303841;
+  border: 1px solid black;
+  margin: 5% auto;
+  width: 15%;
+  padding: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+.showall:hover {
+  background-color: #be3144;
+}
+
+.footer {
+  margin-top: 40%;
+
+  color: aliceblue;
+}
+.footer h1 {
+  font-size: 65px;
+}
+.footer p {
+  font-size: 20px;
+}
+
+.contact {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 30%;
+  max-width: 60%;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.contact li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.contact li:hover {
+  padding-top: 5px;
+  color: #be3144;
+}
+.contact ul li img {
+  height: 17px;
+  width: 21px;
+  margin-right: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.footer hr {
+  color: #be3144;
+  width: 100%;
+  margin: 0;
+  border: 2px solid #be3144;
+}
+.footer-foot p {
+  text-align: left;
+  font-size: 15px;
+  padding: 20px;
+  margin: 20px;
+}
+.footer-foot {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+.footer-foot span {
+  padding: 20px;
+  margin: 20px;
+}
